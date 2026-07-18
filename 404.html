@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>404 — Page not found · Aarav Shrestha</title>
+  <meta name="description" content="This page doesn't exist. The rest of the site does.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1016" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="404">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="nav" id="site-nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="index.html" aria-label="Home"></a>
+      <nav class="nav__links" aria-label="Primary" id="primary-nav"></nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="palette-open" type="button" aria-label="Open command menu (Ctrl+K)"><span class="kbd-hint" aria-hidden="true">⌘K</span></button>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false"></button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" hidden><nav aria-label="Mobile" id="mobile-nav"></nav></div>
+  </header>
+
+  <main id="main" class="page">
+    <div class="container notfound">
+      <p class="notfound__code mono" aria-hidden="true"><span>4</span><span class="notfound__zero">0</span><span>4</span></p>
+      <h1 class="notfound__title">This route doesn't resolve.</h1>
+      <p class="notfound__lede">The page you're after was moved, renamed, or never shipped. Everything that <em>did</em> ship is one click away.</p>
+      <p class="notfound__hint mono">HTTP 404 · route not found · no stack trace, thankfully</p>
+      <div class="hero__cta">
+        <a class="btn btn--primary" href="index.html">Back to home</a>
+        <a class="btn btn--secondary" href="blog.html">Read the writing</a>
+        <button type="button" class="btn btn--ghost" data-palette-open><span>Search the site</span><kbd>Ctrl K</kbd></button>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer" id="site-footer"><div class="container" data-slot></div></footer>
+
+  <dialog class="palette" id="palette" aria-label="Command menu">
+    <div class="palette__frame">
+      <div class="palette__inputwrap">
+        <input id="palette-input" class="palette__input" type="text" role="combobox" aria-expanded="true"
+               aria-controls="palette-list" aria-activedescendant="" autocomplete="off" spellcheck="false"
+               placeholder="Search sections, projects, writing, actions…">
+        <kbd class="palette__esc">esc</kbd>
+      </div>
+      <ul class="palette__list" id="palette-list" role="listbox" aria-label="Results"></ul>
+      <p class="palette__empty" id="palette-empty" hidden>No results.</p>
+    </div>
+  </dialog>
+
+  <button class="to-top" id="to-top" type="button" aria-label="Back to top" hidden></button>
+  <div class="toast-region" id="toast-region" role="status" aria-live="polite"></div>
+
+  <script src="js/content.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

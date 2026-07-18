@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Résumé — Aarav Shrestha, Full-Stack Engineer</title>
+  <meta name="description" content="Résumé of Aarav Shrestha — full-stack engineer (TypeScript, React, Node.js, PostgreSQL). Print-friendly and downloadable as PDF.">
+  <link rel="canonical" href="https://example.com/resume.html">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1016" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="resume">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="nav no-print" id="site-nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="index.html" aria-label="Home"></a>
+      <nav class="nav__links" aria-label="Primary" id="primary-nav"></nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="palette-open" type="button" aria-label="Open command menu (Ctrl+K)"><span class="kbd-hint" aria-hidden="true">⌘K</span></button>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false"></button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" hidden><nav aria-label="Mobile" id="mobile-nav"></nav></div>
+  </header>
+
+  <main id="main" class="page page--resume">
+    <div class="container container--narrow" id="resume-slot"></div>
+  </main>
+
+  <footer class="footer no-print" id="site-footer"><div class="container" data-slot></div></footer>
+
+  <dialog class="palette" id="palette" aria-label="Command menu">
+    <div class="palette__frame">
+      <div class="palette__inputwrap">
+        <input id="palette-input" class="palette__input" type="text" role="combobox" aria-expanded="true"
+               aria-controls="palette-list" aria-activedescendant="" autocomplete="off" spellcheck="false"
+               placeholder="Search sections, projects, writing, actions…">
+        <kbd class="palette__esc">esc</kbd>
+      </div>
+      <ul class="palette__list" id="palette-list" role="listbox" aria-label="Results"></ul>
+      <p class="palette__empty" id="palette-empty" hidden>No results.</p>
+    </div>
+  </dialog>
+
+  <button class="to-top no-print" id="to-top" type="button" aria-label="Back to top" hidden></button>
+  <div class="toast-region" id="toast-region" role="status" aria-live="polite"></div>
+
+  <noscript><div class="noscript container"><p>The résumé renders with JavaScript. A copy is available by email: hello@aarav.dev.example</p></div></noscript>
+
+  <script src="js/content.js" defer></script>
+  <script src="js/main.js" defer></script>
+  <script src="js/resume.js" defer></script>
+</body>
+</html>

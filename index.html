@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- ▼ EDIT WHEN PERSONALISING: title, description, URLs and JSON-LD below
+       should mirror what you put in js/content.js -->
+  <title>Cyber Learner</title>
+  <meta name="description" content="Full-stack engineer with 7+ years building fast, accessible, production-grade web products for startups and NGOs. TypeScript, React, Node.js, PostgreSQL.">
+  <meta name="author" content="Cyber Learner">
+  <link rel="canonical" href="https://example.com/">
+  <meta name="robots" content="index, follow">
+
+  <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1016" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="CYBLE">
+  <meta property="og:title" content="Cyber Learner — Full-Stack Engineer">
+  <meta property="og:description" content="Software people can rely on. Case studies, writing, and services from a full-stack engineer in Kathmandu.">
+  <meta property="og:url" content="https://example.com/">
+  <meta property="og:image" content="https://example.com/assets/images/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aarav Shrestha — Full-Stack Engineer">
+  <meta name="twitter:description" content="Software people can rely on. Case studies, writing, and services.">
+  <meta name="twitter:image" content="https://example.com/assets/images/og.png">
+
+  <!-- Icons & PWA -->
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/images/icon-192.png" type="image/png" sizes="192x192">
+  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <!-- Theme is applied before first paint to avoid a flash -->
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Structured data (mirror of js/content.js — edit both together) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://example.com/#person",
+        "name": "Cyber Learner",
+        "jobTitle": "Full-Stack Engineer",
+        "url": "https://example.com/",
+        "email": "mailto:cyberlearner0369@gmail.com",
+        "address": { "@type": "PostalAddress", "addressLocality": "SP", "addressCountry": "NP" },
+        "sameAs": [
+          "https://github.com/cyble-example",
+          "https://www.linkedin.com/in/cyble-example",
+          "https://x.com/cyble_example"
+        ],
+        "knowsAbout": ["TypeScript", "React", "Node.js", "PostgreSQL", "Web accessibility", "Cloud infrastructure"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://example.com/#website",
+        "url": "https://example.com/",
+        "name": "Cyber Learner",
+        "publisher": { "@id": "https://example.com/#person" }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="progress" aria-hidden="true"><span id="progress-bar"></span></div>
+
+  <header class="nav" id="site-nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="#top" aria-label="Home"></a>
+      <nav class="nav__links" aria-label="Primary" id="primary-nav"></nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="palette-open" type="button" aria-label="Open command menu (Ctrl+K)">
+          <span class="kbd-hint" aria-hidden="true">⌘K</span>
+        </button>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false"></button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <nav aria-label="Mobile" id="mobile-nav"></nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-label="Introduction">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="blob blob--a"></span><span class="blob blob--b"></span>
+        <span class="hero__grid"></span>
+      </div>
+      <div class="container" id="hero-slot"></div>
+      <a class="hero__scroll" href="#work" aria-label="Scroll to selected work"><span class="hero__scroll-line" aria-hidden="true"></span>scroll</a>
+    </section>
+
+    <section class="section" id="work" data-render="projects"><div class="container" data-slot></div></section>
+    <section class="section" id="about" data-render="about"><div class="container" data-slot></div></section>
+    <section class="section" id="skills" data-render="skills"><div class="container" data-slot></div></section>
+    <section class="section section--tint" id="services" data-render="services"><div class="container" data-slot></div></section>
+    <section class="section" id="experience" data-render="experience"><div class="container" data-slot></div></section>
+    <section class="section section--tint" id="numbers" data-render="achievements"><div class="container" data-slot></div></section>
+    <section class="section" id="testimonials" data-render="testimonials"><div class="container" data-slot></div></section>
+    <section class="section" id="writing" data-render="writing"><div class="container" data-slot></div></section>
+    <section class="section" id="gallery" data-render="gallery" hidden><div class="container" data-slot></div></section>
+    <section class="section" id="faq" data-render="faq"><div class="container container--narrow" data-slot></div></section>
+    <section class="section section--tint" id="contact" data-render="contact"><div class="container" data-slot></div></section>
+  </main>
+
+  <footer class="footer" id="site-footer"><div class="container" data-slot></div></footer>
+
+  <!-- Case-study dialog -->
+  <dialog class="modal" id="project-modal" aria-labelledby="project-modal-title">
+    <div class="modal__frame" id="project-modal-body"></div>
+  </dialog>
+
+  <!-- Command palette -->
+  <dialog class="palette" id="palette" aria-label="Command menu">
+    <div class="palette__frame">
+      <div class="palette__inputwrap">
+        <input id="palette-input" class="palette__input" type="text" role="combobox" aria-expanded="true"
+               aria-controls="palette-list" aria-activedescendant="" autocomplete="off" spellcheck="false"
+               placeholder="Search sections, projects, writing, actions…">
+        <kbd class="palette__esc">esc</kbd>
+      </div>
+      <ul class="palette__list" id="palette-list" role="listbox" aria-label="Results"></ul>
+      <p class="palette__empty" id="palette-empty" hidden>No results. Try “projects”, “theme”, or “email”.</p>
+    </div>
+  </dialog>
+
+  <!-- Lightbox -->
+  <dialog class="lightbox" id="lightbox" aria-label="Image viewer">
+    <figure class="lightbox__frame"><img id="lightbox-img" alt=""><figcaption id="lightbox-cap"></figcaption></figure>
+  </dialog>
+
+  <button class="to-top" id="to-top" type="button" aria-label="Back to top" hidden></button>
+  <div class="toast-region" id="toast-region" role="status" aria-live="polite"></div>
+
+  <noscript>
+    <div class="noscript container">
+      <h1>Cyber Learner — Full-Stack Engineer</h1>
+      <p>This portfolio renders its content with a small amount of JavaScript (~no frameworks, no trackers).
+         Please enable JavaScript, or email <a href="mailto:cyberlearner0369@gmail.com">cyberlearner0369@gmail.com</a>.</p>
+    </div>
+  </noscript>
+
+  <script src="js/content.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

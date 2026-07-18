@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Aarav Shrestha</title>
+  <meta name="description" content="What this site does (and deliberately doesn't do) with your data.">
+  <link rel="canonical" href="https://example.com/privacy.html">
+  <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1016" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="legal">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="nav" id="site-nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="index.html" aria-label="Home"></a>
+      <nav class="nav__links" aria-label="Primary" id="primary-nav"></nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="palette-open" type="button" aria-label="Open command menu (Ctrl+K)"><span class="kbd-hint" aria-hidden="true">⌘K</span></button>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false"></button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" hidden><nav aria-label="Mobile" id="mobile-nav"></nav></div>
+  </header>
+
+  <main id="main" class="page">
+    <article class="container container--narrow prose legal">
+      <nav class="crumbs mono" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Privacy</span></nav>
+      <h1>Privacy Policy</h1>
+      <p class="mono">Last updated: July 2026</p>
+      <p><em>Template notice: adapt this policy to your own setup (analytics, form provider, jurisdiction) before publishing.</em></p>
+
+      <h2>The short version</h2>
+      <p>This is a personal portfolio. It sets no cookies, runs no advertising, and collects nothing about you unless you deliberately send it — for example, through the contact form. It is designed to work with the minimum possible data.</p>
+
+      <h2>What this site stores in your browser</h2>
+      <p>One value: your light/dark theme choice, kept in your browser's <code>localStorage</code> under the key <code>theme</code>. It never leaves your device, and clearing your browser data removes it. If you install the site as an app, your browser also caches pages for offline use — again, entirely on your device.</p>
+
+      <h2>The contact form</h2>
+      <p>If you submit the contact form, the name, email address and message you type are delivered to me so that I can reply. Depending on configuration, delivery happens either through your own email application (nothing passes through a third party) or through a form-delivery service, in which case that provider processes the submission on my behalf under its own privacy terms. I keep messages only as long as our correspondence needs and never sell or share them.</p>
+
+      <h2>Analytics</h2>
+      <p>If analytics are enabled, this site uses a privacy-focused, cookie-free service that records aggregate page views only — no personal identifiers, no cross-site tracking, no fingerprinting. If analytics are not enabled, nothing is measured at all.</p>
+
+      <h2>Hosting logs</h2>
+      <p>Like almost every website, the hosting provider that serves these pages may keep short-lived technical logs (IP address, requested page, timestamp) for security and reliability. These are governed by the host's own policy and are not used by me to identify visitors.</p>
+
+      <h2>External links</h2>
+      <p>Links to GitHub, LinkedIn and other external sites lead to services with their own privacy practices, which I don't control.</p>
+
+      <h2>Your rights</h2>
+      <p>If you've emailed me and would like your correspondence deleted, ask and it will be. For anything privacy-related, contact <a href="mailto:hello@aarav.dev.example">hello@aarav.dev.example</a>.</p>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, the date above changes with it. Material changes will be noted here plainly rather than buried.</p>
+    </article>
+  </main>
+
+  <footer class="footer" id="site-footer"><div class="container" data-slot></div></footer>
+
+  <dialog class="palette" id="palette" aria-label="Command menu">
+    <div class="palette__frame">
+      <div class="palette__inputwrap">
+        <input id="palette-input" class="palette__input" type="text" role="combobox" aria-expanded="true" aria-controls="palette-list" aria-activedescendant="" autocomplete="off" spellcheck="false" placeholder="Search sections, projects, writing, actions…">
+        <kbd class="palette__esc">esc</kbd>
+      </div>
+      <ul class="palette__list" id="palette-list" role="listbox" aria-label="Results"></ul>
+      <p class="palette__empty" id="palette-empty" hidden>No results.</p>
+    </div>
+  </dialog>
+
+  <button class="to-top" id="to-top" type="button" aria-label="Back to top" hidden></button>
+  <div class="toast-region" id="toast-region" role="status" aria-live="polite"></div>
+
+  <script src="js/content.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>

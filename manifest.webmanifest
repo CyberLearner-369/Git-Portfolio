@@ -1,0 +1,15 @@
+{
+  "name": "Aarav Shrestha — Full-Stack Engineer",
+  "short_name": "aarav.dev",
+  "description": "Portfolio, case studies and writing of Aarav Shrestha, full-stack engineer.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d1016",
+  "theme_color": "#0d1016",
+  "icons": [
+    { "src": "assets/images/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/images/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/images/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

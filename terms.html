@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Terms of Use — Aarav Shrestha</title>
+  <meta name="description" content="Plain-language terms for using this portfolio website.">
+  <link rel="canonical" href="https://example.com/terms.html">
+  <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1016" media="(prefers-color-scheme: dark)">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="legal">
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="nav" id="site-nav">
+    <div class="container nav__inner">
+      <a class="nav__brand" href="index.html" aria-label="Home"></a>
+      <nav class="nav__links" aria-label="Primary" id="primary-nav"></nav>
+      <div class="nav__actions">
+        <button class="icon-btn" id="palette-open" type="button" aria-label="Open command menu (Ctrl+K)"><span class="kbd-hint" aria-hidden="true">⌘K</span></button>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false"></button>
+        <button class="icon-btn menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"></button>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobile-menu" hidden><nav aria-label="Mobile" id="mobile-nav"></nav></div>
+  </header>
+
+  <main id="main" class="page">
+    <article class="container container--narrow prose legal">
+      <nav class="crumbs mono" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span aria-current="page">Terms</span></nav>
+      <h1>Terms of Use</h1>
+      <p class="mono">Last updated: July 2026</p>
+      <p><em>Template notice: adjust to your jurisdiction and needs before publishing.</em></p>
+
+      <h2>What this site is</h2>
+      <p>A personal portfolio: case studies, writing, and a way to contact me. It's provided free of charge, in the hope that it's useful, with no guarantee it will be available, error-free, or eternally up to date.</p>
+
+      <h2>Content and ownership</h2>
+      <p>Unless stated otherwise, the writing, case studies and design of this site are © Aarav Shrestha. You're welcome to quote short excerpts with attribution and a link. Republishing whole articles, or presenting this work as your own, isn't okay. Client names, logos and trademarks referenced in case studies belong to their respective owners and appear for identification only.</p>
+
+      <h2>Code samples</h2>
+      <p>Code snippets published in blog posts are provided under the MIT licence: use them freely, at your own risk, without warranty. Test anything before it goes near production — the posts themselves say the same.</p>
+
+      <h2>Professional information</h2>
+      <p>Case-study metrics and outcomes are reported accurately and in good faith, sometimes rounded or anonymised to respect client confidentiality. Nothing here is professional advice for your specific situation; engagements are governed by their own written agreements, not this page.</p>
+
+      <h2>Acceptable use</h2>
+      <p>Don't attempt to disrupt the site, probe it for vulnerabilities beyond good-faith security research, scrape it for spam lists, or use the contact form to send unlawful or abusive material. Good-faith security reports are genuinely welcome at the email address below.</p>
+
+      <h2>External links</h2>
+      <p>Links to third-party sites are provided for convenience; I don't control and can't vouch for their content or terms.</p>
+
+      <h2>Liability</h2>
+      <p>To the maximum extent permitted by law, this site is provided "as is" and I accept no liability for losses arising from its use. (For a free portfolio site, this mostly means: if a code snippet misbehaves in your project, the responsibility for testing it was yours.)</p>
+
+      <h2>Changes and contact</h2>
+      <p>These terms may be updated; the date above reflects the current version. Questions: <a href="mailto:hello@aarav.dev.example">hello@aarav.dev.example</a>.</p>
+    </article>
+  </main>
+
+  <footer class="footer" id="site-footer"><div class="container" data-slot></div></footer>
+
+  <dialog class="palette" id="palette" aria-label="Command menu">
+    <div class="palette__frame">
+      <div class="palette__inputwrap">
+        <input id="palette-input" class="palette__input" type="text" role="combobox" aria-expanded="true" aria-controls="palette-list" aria-activedescendant="" autocomplete="off" spellcheck="false" placeholder="Search sections, projects, writing, actions…">
+        <kbd class="palette__esc">esc</kbd>
+      </div>
+      <ul class="palette__list" id="palette-list" role="listbox" aria-label="Results"></ul>
+      <p class="palette__empty" id="palette-empty" hidden>No results.</p>
+    </div>
+  </dialog>
+
+  <button class="to-top" id="to-top" type="button" aria-label="Back to top" hidden></button>
+  <div class="toast-region" id="toast-region" role="status" aria-live="polite"></div>
+
+  <script src="js/content.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
