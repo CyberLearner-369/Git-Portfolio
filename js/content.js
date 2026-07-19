@@ -40,9 +40,9 @@ window.SITE = {
     typedRoles: [
       "AI powered Cybersecurity",
       "Enthusiast AI/ML",
-      "PostgreSQL & data models",
-      "cloud infrastructure",
-      "developer experience"
+      "Eagerly passionate about Data Science",
+      "Informal Learner of Human Psycchology and Neuroscience",
+      "Developer experience"
     ],
     ctas: [
       { label: "View projects", href: "#work", kind: "primary" },
@@ -55,7 +55,7 @@ window.SITE = {
     kicker: "About",
     title: "Product-minded, production-obsessed.",
     paragraphs: [
-      "I started building websites in a Kathmandu cybercafé at Nineteen and never really stopped. Since then I've shipped software for logistics companies, fintech startups, and humanitarian NGOs — often as the first or only engineer, which taught me to care about the whole system: the schema, the deploy pipeline, and the human on the other side of the screen.",
+      "I started building websites in a Kathmandu at Nineteen and never really stopped. Since then I've shipped software for logistics companies, fintech startups, and humanitarian NGOs — often as the first or only engineer, which taught me to care about the whole system: the schema, the deploy pipeline, and the human on the other side of the screen.",
       "My default mode is boring technology, exciting outcomes. I reach for proven tools, write code the next person can read, and measure success in things users feel — faster pages, fewer support tickets, claims that get paid, forms that just work.",
       "Away from the keyboard I'm usually trail-running the Shivapuri ridge, mentoring first-generation CS students, or over-engineering my espresso setup."
     ],
@@ -252,7 +252,7 @@ window.SITE = {
         "Peer-to-peer sync over local Wi-Fi for fully disconnected clusters.",
         "CRDT-based merging for the handful of genuinely collaborative fields."
       ],
-      links: { demo: "https://example.com/fieldnote", repo: "https://github.com/aarav-example/fieldnote" }
+      links: { demo: "https://example.com/fieldnote", repo: "https://github.com/CybLe-example/fieldnote" }
     },
     {
       slug: "parcelly",
@@ -334,7 +334,7 @@ window.SITE = {
         "Canvas fallback renderer for 50k+ cell datasets.",
         "An interactive docs playground with shareable state URLs."
       ],
-      links: { demo: "https://example.com/hexagrid", repo: "https://github.com/aarav-example/hexagrid" }
+      links: { demo: "https://example.com/hexagrid", repo: "https://github.com/CybLe-example/hexagrid" }
     },
     {
       slug: "sajilo-docs",
@@ -517,7 +517,7 @@ window.SITE = {
     title: "What partners say afterwards.",
     items: [
       {
-        quote: "Aarav scoped honestly, shipped early, and flagged the one risk that would have sunk our launch. Rarest engineer trait: he makes the complicated feel calm.",
+        quote: "CybLe scoped honestly, shipped early, and flagged the one risk that would have sunk our launch. Rarest engineer trait: he makes the complicated feel calm.",
         name: "Maya Gurung",
         role: "Founder, LedgerLens"
       },
@@ -729,9 +729,9 @@ Boring is not the opposite of ambitious. Boring is how you can afford to be ambi
     lede: "Tell me a little about the project — a rough shape is fine. I reply to everything within two working days.",
     note: "Prefer email? Write to",
     socials: [
-      { name: "GitHub", url: "https://github.com/aarav-example", icon: "github" },
-      { name: "LinkedIn", url: "https://www.linkedin.com/in/aarav-example", icon: "linkedin" },
-      { name: "X / Twitter", url: "https://x.com/aarav_example", icon: "x" },
+      { name: "GitHub", url: "https://github.com/CybLe-example", icon: "github" },
+      { name: "LinkedIn", url: "https://www.linkedin.com/in/CybLe-example", icon: "linkedin" },
+      { name: "X / Twitter", url: "https://x.com/CybLe_example", icon: "x" },
       { name: "RSS", url: "feed.xml", icon: "rss" }
     ]
   },
