@@ -35,14 +35,14 @@ window.SITE = {
   hero: {
     headline: "Software people can |rely| on.",   // text between |pipes| is set in the serif italic accent
     intro:
-      "I'm Cyber — a full-stack engineer with seven years of experience turning ambiguous ideas into fast, accessible, production-grade web products for startups and NGOs across three continents.",
+      "I'm BOKSO — a  AI-POWERED CYBERSECURITY enthusiast with three years of experience turning ambiguous ideas into fast, accessible, production-grade web projects for practice and learning.",
     typedPrefix: "I work across",
     typedRoles: [
-      "AI powered Cybersecurity",
+      " Learner AI powered Cybersecurity",
       "Enthusiast AI/ML",
       "Eagerly passionate about Data Science",
       "Informal Learner of Human Psycchology and Neuroscience",
-      "Developer experience"
+      "Learning Developing "
     ],
     ctas: [
       { label: "View projects", href: "#work", kind: "primary" },
@@ -55,9 +55,7 @@ window.SITE = {
     kicker: "About",
     title: "Product-minded, production-obsessed.",
     paragraphs: [
-      "I started building websites in a Kathmandu at Nineteen and never really stopped. Since then I've shipped software for logistics companies, fintech startups, and humanitarian NGOs — often as the first or only engineer, which taught me to care about the whole system: the schema, the deploy pipeline, and the human on the other side of the screen.",
-      "My default mode is boring technology, exciting outcomes. I reach for proven tools, write code the next person can read, and measure success in things users feel — faster pages, fewer support tickets, claims that get paid, forms that just work.",
-      "Away from the keyboard I'm usually trail-running the Shivapuri ridge, mentoring first-generation CS students, or over-engineering my espresso setup."
+        "I grew up in rural Nepal, where access to opportunities was limited but curiosity wasn't. My journey into technology began with a simple question: how do people build software that solves real problems? Since then, I've been learning by building—starting from the fundamentals and turning ambitious ideas into small, practical projects that steadily compound into larger systems. I'm drawn to AI, cybersecurity, and full-stack engineering because they sit at the intersection of creativity and problem-solving. I prefer breaking complex systems into manageable milestones, understanding each layer—from the user interface and backend logic to databases, security, and deployment—rather than treating software as a collection of isolated technologies. Away from the editor, I'm usually exploring emerging technologies, researching startup ideas that could create value in Nepal, refining my learning systems, or asking questions that challenge assumptions instead of accepting easy answers. I believe meaningful software comes from continuous learning, disciplined execution, and building things that people genuinely find useful."
     ],
     values: [
       { name: "Clarity over cleverness", detail: "Readable systems outlive smart ones. I optimise for the engineer who inherits my code." },
