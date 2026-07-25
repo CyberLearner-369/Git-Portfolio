@@ -18,9 +18,9 @@ window.SITE = {
 
   /* ---- Identity ------------------------------------------------------- */
   identity: {
-    name: "Cyber Learner",
-    firstName: "Cyber",
-    wordmark: "Cyble",
+    name: "BOKSO",
+    firstName: "BOKSO",
+    wordmark: "BOKSO",
     title: "Full-Stack Engineer",
     location: "SP, Nepal",
     timezone: "Asia/Kathmandu",
@@ -252,7 +252,7 @@ window.SITE = {
         "Peer-to-peer sync over local Wi-Fi for fully disconnected clusters.",
         "CRDT-based merging for the handful of genuinely collaborative fields."
       ],
-      links: { demo: "https://example.com/fieldnote", repo: "https://github.com/CybLe-example/fieldnote" }
+      links: { demo: "https://example.com/fieldnote", repo: "https://github.com/bokso-example/fieldnote" }
     },
     {
       slug: "parcelly",
@@ -334,7 +334,7 @@ window.SITE = {
         "Canvas fallback renderer for 50k+ cell datasets.",
         "An interactive docs playground with shareable state URLs."
       ],
-      links: { demo: "https://example.com/hexagrid", repo: "https://github.com/CybLe-example/hexagrid" }
+      links: { demo: "https://example.com/hexagrid", repo: "https://github.com/Bokso-example/hexagrid" }
     },
     {
       slug: "sajilo-docs",
