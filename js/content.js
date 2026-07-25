@@ -36,13 +36,12 @@ window.SITE = {
     headline: "BOKSO on which people can |trust| on.",   // text between |pipes| is set in the serif italic accent
     intro:
       "I'm BOKSO — a  AI-POWERED CYBERSECURITY enthusiast with three years of experience turning ambiguous self-generated ideas into fast, accessible, production-grade web projects for practice and learning.",
-    typedPrefix: "I am an active Enthusiast",
+    typedPrefix: "I am an active Informal Enthusiast",
     typedRoles: [
-      " Learner AI powered Cybersecurity",
-      "Enthusiast AI/ML",
-      "Eagerly passionate about Data Science",
-      "Informal Learner of Human Psycchology and Neuroscience",
-      "Learning Developing "
+      "AI powered Cybersecurity",
+      "AI/ML",
+      "Data Science",
+      "Human Psychology and Neuroscience",
     ],
     ctas: [
       { label: "View projects", href: "#work", kind: "primary" },
