@@ -21,11 +21,11 @@ window.SITE = {
     name: "BOKSO",
     firstName: "BOKSO",
     wordmark: "BOKSO",
-    title: "Full-Stack Engineer",
+    title: "Neophyte in Tech-Field",
     location: "SP, Nepal",
     timezone: "Asia/Kathmandu",
     timezoneLabel: "UTC+5:45",
-    availability: "Available for new projects", // set "" to hide the status dot
+    availability: "Just Learning from the scratch and Trying to build stuffs.", // set "" to hide the status dot
     email: "cyberlearner0369@gmail.com",
     photo: "",                                  // e.g. "assets/images/portrait.jpg" — empty = monogram avatar
     photoAlt: "Portrait of BOKSO"
