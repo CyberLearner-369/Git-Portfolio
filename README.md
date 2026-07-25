@@ -90,9 +90,9 @@ Headings `##`/`###`/`####`, paragraphs, `**bold**`, `*italic*`, `` `inline code`
 
 For SEO, a few things live in the HTML `<head>` rather than `content.js` (crawlers read them before JavaScript runs). When personalising, search-and-replace across the `.html` files:
 
-1. `Aarav Shrestha` → your name (titles, meta, JSON-LD)
+1. `BOKSO` → your name (titles, meta, JSON-LD)
 2. `https://example.com` → your live domain (canonical, OG, sitemap.xml, robots.txt)
-3. `hello@aarav.dev.example` → your email (noscript fallbacks, JSON-LD)
+3. `hello@bokso.dev.example` → your email (noscript fallbacks, JSON-LD)
 
 ---
 
