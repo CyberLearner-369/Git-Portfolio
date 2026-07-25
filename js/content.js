@@ -33,10 +33,10 @@ window.SITE = {
 
   /* ---- Hero ------------------------------------------------------------ */
   hero: {
-    headline: "Software people can |rely| on.",   // text between |pipes| is set in the serif italic accent
+    headline: "BOKSO on which people can |trust| on.",   // text between |pipes| is set in the serif italic accent
     intro:
       "I'm BOKSO — a  AI-POWERED CYBERSECURITY enthusiast with three years of experience turning ambiguous self-generated ideas into fast, accessible, production-grade web projects for practice and learning.",
-    typedPrefix: "I am a active Enthusiast",
+    typedPrefix: "I am an active Enthusiast",
     typedRoles: [
       " Learner AI powered Cybersecurity",
       "Enthusiast AI/ML",
