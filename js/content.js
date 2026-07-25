@@ -28,15 +28,15 @@ window.SITE = {
     availability: "Available for new projects", // set "" to hide the status dot
     email: "cyberlearner0369@gmail.com",
     photo: "",                                  // e.g. "assets/images/portrait.jpg" — empty = monogram avatar
-    photoAlt: "Portrait of Cyber Learner"
+    photoAlt: "Portrait of BOKSO"
   },
 
   /* ---- Hero ------------------------------------------------------------ */
   hero: {
     headline: "Software people can |rely| on.",   // text between |pipes| is set in the serif italic accent
     intro:
-      "I'm BOKSO — a  AI-POWERED CYBERSECURITY enthusiast with three years of experience turning ambiguous ideas into fast, accessible, production-grade web projects for practice and learning.",
-    typedPrefix: "I work across",
+      "I'm BOKSO — a  AI-POWERED CYBERSECURITY enthusiast with three years of experience turning ambiguous self-generated ideas into fast, accessible, production-grade web projects for practice and learning.",
+    typedPrefix: "I am a active Enthusiast",
     typedRoles: [
       " Learner AI powered Cybersecurity",
       "Enthusiast AI/ML",
@@ -68,8 +68,8 @@ window.SITE = {
       { label: "Experience", value: "2+ years" },
       { label: "Focus", value: "AI POWERED CYBERSECURITY" },
       { label: "Languages", value: "English · Nepali · Hindi" },
-      { label: "Working with", value: "Startups & NGOs, remote-first" },
-      { label: "Currently learning", value: "Rust & local-first sync" }
+      { label: "Working with", value: "At this time I am building and learning skills." },
+      { label: "Currently learning", value: "Learning 0 & 1 of Computer system." }
     ]
   },
 
